@@ -150,4 +150,8 @@ hr {
 	width: 100%;
 }
 
-@media screen and (max-width: 420px) {}
+@media screen and (max-width: 420px) {
+	body {
+		margin: 0 auto;
+	}
+}
