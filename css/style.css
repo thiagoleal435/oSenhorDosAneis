@@ -93,6 +93,7 @@ b {
 	justify-content: baseline;
 	align-items: center;
 	width: 32%;
+	transition: all 0.5s;
 
 	box-sizing: border-box;
 	border: 2px inset #c5a800;
@@ -100,19 +101,16 @@ b {
 }
 
 .personagens ul li img {
-	opacity: 0.8;
 	width: 90%;
 	height: 170px;
 	margin-top: 5%;
 	border-radius: inherit;
 }
 
-.personagens li:hover,
-.personagens li img:hover,
-.livros li:hover,
-.livros li img:hover {
+.personagens ul li:hover,
+.livros ul li:hover {
 	font-weight: 600;
-	opacity: 1.5;
+	width: 35%;
 }
 
 .livros ul {
@@ -127,6 +125,7 @@ b {
 	justify-content: baseline;
 	align-items: center;
 	width: 32%;
+	transition: all 0.5s;
 
 	box-sizing: border-box;
 	border: 2px inset #c5a800;
@@ -149,14 +148,11 @@ footer {
 	background-color: #c5a800;
 }
 
-footer img {
-	display: block;
-	margin: 0 auto;
-}
-
-.links {
-	text-align: center;
-	margin: 20px 0;
+.itens-rodape {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .links a {
@@ -164,12 +160,28 @@ footer img {
 	color: black;
 	text-decoration: none;
 	font-size: 1.5em;
+	transition: 0.5s;
+	margin: 5px 0;
 }
 
 .links a:hover {
 	color: #00bac6;
-	font-size: 2em;
+	font-size: 1.8em;
+}
+
+.redes-contato {
+	display: grid;
+	height: 100%;
+}
+
+.redes-contato a {
+	margin: 2px 0;
+	color: black;
 	transition: 0.5s;
+}
+
+.redes-contato a:hover {
+	color: #00bac6;
 }
 
 .frase-rodape {
